@@ -53,15 +53,20 @@ def hamza(z):
 		time.sleep(0.03)
 ##### LOGO #####
 banner = """
-\x1b[1;91m  \    / |\ /| | /
-\x1b[1;93m   \  /  | • | |•
-\x1b[1;93m    \/   |   | | \
-              (FREEDOM FIGHTER)
+\x1b[1;91m  
+▒█████████████████▀█████████████████
+██▀▄─██─▄▄▄▄█─▄▄▄▄█─█─██▀▄─██▄─▄▄▀█
+██─▀─██▄▄▄▄─█─██▄─█─▄─██─▀─███─▄─▄█
+▀▄▄▀▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▀▄▀▄▄▀▄▄▀▄▄▀▄▄▀
+▒
+\x1b[1;93m   
+\x1b[1;93m    
+              (MASOOM BOY )
 \x1b[1;94m-----------°°°°°°°°°------------°°°°°°°°°-----
-\x1b[1;92m➣ Coder   : ASAD ANSAARI
-\x1b[1;92m➣ Github  : HTTPS://GITHUB.COM/VIRUSMAKERKINGASAD
-\x1b[1;92m➣ Facebook:  ASAD ANSARI
-\x1b[1;92m➣ Whatsapp: 03034284226
+\x1b[1;92m➣ Coder   : ASGHAR LATIF
+\x1b[1;92m➣ Github  : HTTPS://GITHUB.COM/ASGHARTECH
+\x1b[1;92m➣ Facebook:  ASGHAR LATIF
+\x1b[1;92m➣ Whatsapp: 030********
 \x1b[1;94m----------°°°°°°°°°------------°°°°°°°°°----"""
 # titik #
 def tik():
@@ -76,7 +81,7 @@ def tlogin():
 	os.system('clear')
 	print banner
 	username = raw_input("[+] TOOL USERNAME: ")
-	if username =="SH007":
+	if username =="asg":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: "+username+ " (correct)"
@@ -86,7 +91,7 @@ def tlogin():
 	    tlogin()
 	    
 	passw = raw_input("[+] TOOL PASSWORD: ")
-	if passw =="OWNER":
+	if passw =="asg":
 	    os.system('clear')
 	    print banner
 	    print "[✓] TOOL USERNAME: " +username+ " (correct)"
